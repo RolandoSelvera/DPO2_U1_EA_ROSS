@@ -56,7 +56,6 @@ public class Principal {
     private static void crearMenu(JMenuBar barraMenu, JMenu menu, JMenuItem ventas,
                                   JMenuItem inventarios, JMenuItem personal, JMenuItem salir){
         // Agrega a la barra de menu las opciones (hijos o elementos):
-        barraMenu.setVisible(true);
         barraMenu.add(menu);
         menu.add(ventas);
         menu.add(inventarios);
